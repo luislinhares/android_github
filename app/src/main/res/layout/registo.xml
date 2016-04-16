@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_column="0"
+                android:src="@drawable/registar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Registar Carro"
+                android:id="@+id/productID"
+                android:layout_gravity="center_vertical"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" Dados:"
+                android:id="@+id/textView"
+                />
+
+        <TableRow>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextPropriatarioNome"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:hint="Propriatário"
+                android:maxLines="1" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextMatricula"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+
+                android:hint="00-00-AA"
+                android:maxLines="1" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextCor"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+
+                android:hint="Kilometros"
+                android:maxLines="1" />
+
+
+        </TableRow>
+
+
+        <Spinner
+            android:id="@+id/static_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp" />
+
+        <Spinner
+            android:id="@+id/dropdownList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </TableLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:text="Registar"
+        android:id="@+id/buttonSalvarRegisto"
+        android:layout_gravity="right"
+        android:nestedScrollingEnabled="false"
+        android:onClick="setContentView" />
+
+
+</LinearLayout>

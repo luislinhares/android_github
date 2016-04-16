@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Manutencao Auto</string>
+    <string name="carro2">carro</string>
+
+    <string-array name="carros">
+        <item>Escolher Carro</item>
+        <item>Renault</item>
+        <item>Opel</item>
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Mercedes</item>
+    </string-array>
+
+</resources>
