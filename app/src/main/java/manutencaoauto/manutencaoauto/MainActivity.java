@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
 import android.widget.*;
-import android.content.*;
 
 
 //filha da class activity - representa a sua classe
@@ -20,7 +19,7 @@ public class MainActivity extends Activity {
         buttonEntrar.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-        Intent mudar = new Intent(MainActivity.this, Result.class);
+        Intent mudar = new Intent(MainActivity.this, RegistoActivity.class);
         startActivity(mudar);
         }
 

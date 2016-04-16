@@ -69,14 +69,14 @@
 
 
         <Spinner
-            android:id="@+id/static_spinner"
+            android:id="@+id/carro"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:layout_marginTop="20dp" />
 
         <Spinner
-            android:id="@+id/dropdownList"
+            android:id="@+id/cor"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
 
